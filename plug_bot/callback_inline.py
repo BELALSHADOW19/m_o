@@ -186,7 +186,7 @@ async def help6(client, callback_query):
   await callback_query.edit_message_text(txx10,reply_markup=reply_markup)      
 @bot.on_callback_query(filters.regex("^help$"))
 async def back(client, callback_query):
-  await callback_query.edit_message_text("• ⟣=====⧼[᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ](https://t.me/SOURCE_HORSE)⧽=====⟢\n• ① اوامر الخاص\n• ② اوامر القنوات والمجموعات \n• ③ اوامر اليوتيوب \n• ④ اوامر الاذاعه\n• ⑤ اوامر الرفع \n• ⑥ اوامر النسب\n• ⑦ اوامر اضافية \n• ⑧ اوامر تسلية1 \n ⑨ اوامر تسلية2 \n⑩ اوامر الزخرفة \n• ⟣=====⧼ [᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ](https://t.me/SOURCE_HORSE)⧽=====⟢",reply_markup = InlineKeyboardMarkup(
+  await callback_query.edit_message_text("• ⟣=====⧼[᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ](https://t.me/SOURCE_HORSE)⧽=====⟢\n◐ ① اوامر الخاص📩\n◐ ② اوامر القنوات والمجموعات 🧰 \n◐ ③ اوامر اليوتيوب 🖼\n◐ ④ اوامر الاذاعه📊\n◐ ⑤ اوامر الرفع 🪪 \n◐ ⑥ اوامر النسب🌿\n◐ ⑦ اوامر اضافية 🔑 \n◐ ⑧ اوامر تسلية1 🎲 \n◐ ⑨ اوامر تسلية2 🎮 \n◐ ⑩ اوامر الزخرفة 🖌\n• ⟣=====⧼ [᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ](https://t.me/SOURCE_HORSE)⧽=====⟢",reply_markup = InlineKeyboardMarkup(
             [[
              InlineKeyboardButton("①",callback_data="help1"),
              InlineKeyboardButton("②",callback_data="help2"),
@@ -204,9 +204,9 @@ async def back(client, callback_query):
              InlineKeyboardButton("⑩",callback_data="help10"),
              ],
              [
-             InlineKeyboardButton("جـࢪؤب ٵلـسـؤࢪس",url="https://t.me/SOURCE_HORSE"),
+             InlineKeyboardButton("جـࢪؤب ٵلـسـؤࢪس",url="https://t.me/BAR_HORSE"),
              ],
              [
-             InlineKeyboardButton("قـنـٵة ٵلـسـؤࢪس",url="https://t.me/BAR_HORSE"),
+             InlineKeyboardButton("قـنـٵة ٵلـسـؤࢪس",url="https://t.me/SOURCE_HORSE"),
              ]]
              ))
